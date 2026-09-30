@@ -165,37 +165,68 @@ export default function ContactSection() {
                                     ))}
                                 </div>
 
-                                {/* SEO: Built by SyncOps backlink */}
-                                <div className="pt-3 mt-1 border-t border-gray-100 text-center">
-                                    <p className="text-xs text-gray-400">
-                                        Built by{' '}
+                                {/* Strong SEO backlinks: SyncOps + CEO Majid Ali */}
+                                <div className="pt-4 mt-2 border-t border-gray-100 text-center space-y-2">
+                                    <p className="text-sm text-gray-600">
                                         <a
                                             href="https://syncops.tech"
                                             target="_blank"
                                             rel="noopener"
-                                            title="Built by SyncOps — AI-Powered Software Solutions & Enterprise Development"
-                                            className="font-semibold text-[#0f88c0] hover:text-sky-600 underline underline-offset-2 decoration-[#0f88c0]/35 hover:decoration-[#0f88c0] transition-colors"
+                                            title="Built by SyncOps — AI-Powered Software Solutions & Enterprise Development | syncops.tech"
+                                            className="font-bold text-[#0f88c0] hover:text-sky-600 underline underline-offset-2 decoration-[#0f88c0]/40 hover:decoration-[#0f88c0] transition-colors"
+                                        >
+                                            Built by SyncOps
+                                        </a>
+                                    </p>
+                                    <p className="text-xs text-gray-500 leading-relaxed">
+                                        Website by{' '}
+                                        <a
+                                            href="https://syncops.tech"
+                                            target="_blank"
+                                            rel="noopener"
+                                            title="SyncOps — AI software development company | syncops.tech"
+                                            className="font-semibold text-gray-700 hover:text-[#0f88c0] transition-colors"
                                         >
                                             SyncOps
                                         </a>
                                         {' · '}
+                                        <a
+                                            href="https://majidali.tech"
+                                            target="_blank"
+                                            rel="noopener"
+                                            title="Majid Ali — Founder & CEO of SyncOps | majidali.tech"
+                                            className="font-semibold text-gray-700 hover:text-[#0f88c0] transition-colors"
+                                        >
+                                            Majid Ali, Founder &amp; CEO
+                                        </a>
+                                    </p>
+                                    <p className="text-[11px] text-gray-400">
+                                        <a
+                                            href="https://syncops.tech"
+                                            target="_blank"
+                                            rel="noopener"
+                                            className="hover:text-[#0f88c0] transition-colors"
+                                        >
+                                            syncops.tech
+                                        </a>
+                                        {' · '}
+                                        <a
+                                            href="https://majidali.tech"
+                                            target="_blank"
+                                            rel="noopener"
+                                            className="hover:text-[#0f88c0] transition-colors"
+                                        >
+                                            majidali.tech
+                                        </a>
+                                        {' · '}
                                         <Link
                                             href="/built-by-syncops"
-                                            title="Built by SyncOps — Meet Majid Ali & SyncOps services"
-                                            className="font-medium text-gray-500 hover:text-[#0f88c0] transition-colors"
+                                            title="About SyncOps and Majid Ali — team behind JPZ Travel"
+                                            className="hover:text-[#0f88c0] transition-colors"
                                         >
-                                            Built by SyncOps
+                                            About the builders
                                         </Link>
                                     </p>
-                                    <a
-                                        href="https://majidali.tech"
-                                        target="_blank"
-                                        rel="noopener"
-                                        title="Majid Ali — Founder & CEO of SyncOps | majidali.tech"
-                                        className="inline-block mt-1 text-[11px] text-gray-400 hover:text-[#0f88c0] transition-colors"
-                                    >
-                                        Majid Ali · majidali.tech
-                                    </a>
                                 </div>
                             </div>
                         </div>

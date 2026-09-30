@@ -142,11 +142,33 @@ export default function Footer() {
 
                 {/* Bottom Bar - Compact */}
                 <div className="mt-10 pt-6 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-3">
-                    <p className="text-sm text-gray-500 text-center sm:text-left">
-                        © {year} Sacred Journeys. All rights reserved.
-                    </p>
+                    <div className="text-sm text-gray-500 text-center sm:text-left space-y-1">
+                        <p>© {year} Sacred Journeys. All rights reserved.</p>
+                        <p className="text-xs text-gray-500">
+                            Built by{' '}
+                            <a
+                                href="https://syncops.tech"
+                                target="_blank"
+                                rel="noopener"
+                                title="Built by SyncOps — AI-Powered Software Solutions | syncops.tech"
+                                className="font-semibold text-[#0f88c0] hover:text-sky-400 transition-colors"
+                            >
+                                SyncOps
+                            </a>
+                            {' · '}
+                            <a
+                                href="https://majidali.tech"
+                                target="_blank"
+                                rel="noopener"
+                                title="Majid Ali — Founder & CEO of SyncOps | majidali.tech"
+                                className="font-semibold text-gray-400 hover:text-[#0f88c0] transition-colors"
+                            >
+                                Majid Ali, CEO
+                            </a>
+                        </p>
+                    </div>
 
-                    <div className="flex flex-wrap justify-center gap-5 text-sm">
+                    <div className="flex flex-wrap justify-center gap-4 sm:gap-5 text-sm">
                         <Link href="/privacy" className="text-gray-500 hover:text-[#0f88c0] transition-colors">
                             Privacy
                         </Link>
@@ -164,10 +186,19 @@ export default function Footer() {
                             href="https://syncops.tech"
                             target="_blank"
                             rel="noopener"
-                            title="SyncOps — AI-Powered Software Solutions | syncops.tech"
-                            className="text-gray-500 hover:text-[#0f88c0] transition-colors font-medium"
+                            title="SyncOps — AI-Powered Software Solutions & Enterprise Development"
+                            className="text-[#0f88c0] hover:text-sky-400 transition-colors font-semibold"
                         >
                             syncops.tech
+                        </a>
+                        <a
+                            href="https://majidali.tech"
+                            target="_blank"
+                            rel="noopener"
+                            title="Majid Ali — Founder & CEO of SyncOps | majidali.tech"
+                            className="text-gray-400 hover:text-[#0f88c0] transition-colors font-medium"
+                        >
+                            majidali.tech
                         </a>
                     </div>
                 </div>
